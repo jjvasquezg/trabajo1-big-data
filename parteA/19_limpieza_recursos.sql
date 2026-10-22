@@ -1,0 +1,14 @@
+-- Trabajo 1 – Parte A (Medallion en Athena) · Equipo FINSIR
+-- Limpieza: borrar tablas (solo después de grabar el video)
+
+-- =====================================================================
+-- LIMPIEZA (solo DESPUÉS de grabar el video)
+-- En Iceberg, DROP TABLE también borra los datos en S3.
+-- Luego vacía y elimina el bucket desde la consola de S3.
+-- =====================================================================
+-- DROP TABLE santander.gold_contrataciones_mensuales;
+-- DROP TABLE santander.silver_rechazadas;
+-- DROP TABLE santander.silver;
+-- DROP VIEW  santander.v_bronze_evaluado;
+-- DROP TABLE santander.bronze;
+-- DROP DATABASE santander;
